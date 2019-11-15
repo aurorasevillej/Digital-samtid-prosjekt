@@ -1,0 +1,104 @@
+body{
+  background-color: #e8dada;
+  margin: 0px;
+  color: black;
+}
+footer{
+  background-color: white;
+  color:#d1a9a9;
+  margin: auto;
+  text-align: justify;
+  justify-content: space-around;
+  padding: 10px;
+  display: flex;
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+background-color: white;
+padding: 20px;
+}
+.nav1 a{
+  color:#d1a9a9;
+  text-decoration: none;
+  font-size: 40px;
+}
+.nav2 a{
+  color: #d1a9a9;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav a:hover{
+  color: black;
+}
+.active{
+  color: #6e4c4c;
+}
+
+main{
+  margin: auto;
+  width: 900px;
+  text-align: justify;
+}
+
+.tipsgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.tips img{
+  width: 100%
+}
+.tips{
+  position: relative;
+}
+.tips:hover img{
+  opacity: 0.2;
+}
+.over{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%,-50%);
+  transition: .5s ease;
+}
+.tips:hover .over {
+  opacity: 1;
+}
+
+.tekst{
+color: black;
+font-size: 30px;
+text-align: center;
+}
+#storoversikrift{
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  font-style: oblique;
+}
+
+#tegning1{
+  width: 120px;
+  position: absolute;
+  top: 220px;
+  right: 200px;
+}
+
+#tegning2{
+  width: 120px;
+  position: absolute;
+  top: 220px;
+  left: 200px;
+}
+#pc{
+  width: 800px;
+  position: absolute;
+  top: 350px;
+  right: 245px;
+}
+.blanktekst{
+  color:#e8dada;
+}
